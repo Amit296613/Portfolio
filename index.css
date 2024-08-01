@@ -93,7 +93,7 @@ header .checkbtn {
 }
 /* -----------------------------------------------home------------------------------------- */
 .home {
-    height: 90vh;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1063,10 +1063,7 @@ form .form-fg .form-group button:hover {
         margin-left: 25px;
         
     }
-    .blog-row {
-        /* border: 1px solid gray; */
-        
-    }
+   
 
     .trending-blog {
         /* border:  1px solid burlywood; */
@@ -1546,38 +1543,25 @@ form .form-fg .form-group button:hover {
     }
 }
 
-@media (max-width: 658px){
-    .container-home {
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 35%;
-    }
-    .about {
-        margin-top: 20%;
-    }
-    .container-About-me .container-about {
-        display: flex;
-        flex-direction: column;
-
-    }
-    .container-About-me {
-        margin-top: 70px;
-    }
-}
 @media (max-width: 658px) {
 
     .container-home {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 40%;
+        margin-top: 20%;
     }
     .about {
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .container-About-me .container-about .self-intro {
         border: 1px solid gray;
         width: 300px;
         margin-left: 10px;
+    }
+    .container-About-me .container-about {
+        display: flex;
+        flex-wrap: wrap;
+
     }
 }
 @media (max-width: 625px) {
@@ -1794,7 +1778,7 @@ form .form-fg .form-group button:hover {
     .container-home {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 50%;
+        margin-top: 20%;
     }
     .skills .my-skills {
         margin-top: 90px;
@@ -1813,7 +1797,7 @@ form .form-fg .form-group button:hover {
 
 @media (max-width: 381px) {
     .skills .my-skills {
-        margin-top: 130px;
+        /* margin-top: 130px; */
     }
     .container-footer .footerabout {
         /* border: 1px solid red; */
@@ -1826,12 +1810,12 @@ form .form-fg .form-group button:hover {
     .container-home {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 60%;
+        /* margin-top: 60%; */
     }
 }
 @media (max-width: 374px) {
     .skills .my-skills {
-        margin-top: 170px;
+        /* margin-top: 170px; */
     }
     .main-contact .container-contact{
         margin-left: 35px;
@@ -1852,9 +1836,9 @@ form .form-fg .form-group button:hover {
         margin-left: 0;
         width: 100%;
     }
-    .blog-row .blog-img {
-        /* border: #00a8e8 1px solid; */
-    }
+    /* .blog-row .blog-img {
+        border: #00a8e8 1px solid;
+    } */
     .blog-row .blog-img img {
         height: 150px;
         /* border: 1px solid yellowgreen; */
@@ -1876,7 +1860,7 @@ form .form-fg .form-group button:hover {
     .container-home {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 70%;
+        /* margin-top: 70%; */
     }
 }
 @media (max-width: 352px){
@@ -1934,7 +1918,7 @@ form .form-fg .form-group button:hover {
     }
     .container-About-me {
         /* border: 1px solid saddlebrown; */
-        margin-top: 200px;
+        /* margin-top: 200px; */
         margin-left: 20px;
     }
     .container-my-skills {
@@ -1958,21 +1942,21 @@ form .form-fg .form-group button:hover {
     .container-home {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 80%;
+        /* margin-top: 80%; */
     }
     .container-About-me .about-me{
-        margin-top: 100px;
+        /* margin-top: 100px; */
     }
     
     .skills .my-skills {
-        margin-top: 200px;
+        /* margin-top: 200px; */
     }
 
     
 }
 @media (max-width: 322px){
     .skills .my-skills {
-        margin-top: 250px;
+        /* margin-top: 250px; */
     }
     
    
